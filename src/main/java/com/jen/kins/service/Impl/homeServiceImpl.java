@@ -13,7 +13,7 @@ public class homeServiceImpl implements homeService {
     public Map<String, Object> getHome() {
 
         Map<String, Object> home = new HashMap<>();
-        home.put("i want", "go home");
+        home.put("i want", "go test");
         home.put("eag", "my company");
         home.put("hi", "real");
 
