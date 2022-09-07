@@ -14,7 +14,7 @@ public class homeServiceImpl implements homeService {
 
         Map<String, Object> home = new HashMap<>();
         home.put("i want", "go test");
-        home.put("eag", "my company");
+        home.put("eag", "my ccc");
         home.put("hi", "real");
 
         return home;
