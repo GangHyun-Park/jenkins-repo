@@ -19,4 +19,15 @@ public class homeServiceImpl implements homeService {
 
         return home;
     }
+
+    @Override
+    public Map<String, Object> getTset() {
+        Map<String, Object> home = new HashMap<>();
+        home.put("i want", "go home");
+        home.put("eag", "my company");
+        home.put("hi", "real");
+
+        return home;
+    }
+
 }

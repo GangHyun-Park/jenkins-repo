@@ -17,4 +17,9 @@ public class ExamController {
     public Map<String, Object> goHome(){
         return homeService.getHome();
     }
+
+    @GetMapping("/test")
+    public Map<String, Object> getTest(){
+        return homeService.getTset();
+    }
 }
